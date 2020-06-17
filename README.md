@@ -1,2 +1,2 @@
  # gRPC-demo
-Spring boot gRPC demo application. This project follows this guide: https://www.baeldung.com/grpc-introduction
+Spring boot gRPC demo application. This project follows this guide: https://www.baeldung.com/grpc-introduction and https://medium.com/@UditMittal/spring-boot-grpc-maven-java-starter-c3130e751
