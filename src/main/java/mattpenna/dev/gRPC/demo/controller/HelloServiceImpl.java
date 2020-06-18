@@ -4,11 +4,11 @@ import io.grpc.stub.StreamObserver;
 import mattpenna.dev.gRPC.demo.proto.HelloRequest;
 import mattpenna.dev.gRPC.demo.proto.HelloResponse;
 import mattpenna.dev.gRPC.demo.proto.HelloServiceGrpc;
-import org.lognet.springboot.grpc.GRpcService;
+import net.devh.boot.grpc.server.service.GrpcService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-@GRpcService
+@GrpcService
 public class HelloServiceImpl extends HelloServiceGrpc.HelloServiceImplBase {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HelloServiceImpl.class);
